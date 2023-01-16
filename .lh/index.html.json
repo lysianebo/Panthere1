@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1670511512112,
@@ -32,6 +32,14 @@
                 {
                     "date": 1673880430321,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -282,8 +282,22 @@\n <!-- Footer - bloc-8 END -->\n \n </div>\n <!-- Principal conteneur END -->\n-    \n+<script defer src=\"https://code.jquery.com/jquery-2.1.0.min.js\" integrity=\"sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=\" crossorigin=\"anonymous\"></script>\n+<script async src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n+<script async src=\"./js/blocs.js\"></script>\n+<script async src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js\"></script>\n+<script async src=\"./js/gmaps.js\"></script>  \n \n+<!-- Google tag (gtag.js) -->\n+<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XQ52W2E63D\"></script>\n+<script>\n+\t  window.dataLayer = window.dataLayer || [];\n+\t  function gtag(){dataLayer.push(arguments);}\n+\t  gtag('js', new Date());\n+\tgtag('config', 'G-XQ52W2E63D');\n+</script>\n+<!-- fin de la balise Google -->   \n+\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1673880979770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -282,9 +282,9 @@\n <!-- Footer - bloc-8 END -->\n \n </div>\n <!-- Principal conteneur END -->\n-<script defer src=\"https://code.jquery.com/jquery-2.1.0.min.js\" integrity=\"sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=\" crossorigin=\"anonymous\"></script>\n+<script defer src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\" integrity=\"sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=\" crossorigin=\"anonymous\"></script>\n <script async src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n <script async src=\"./js/blocs.js\"></script>\n <script async src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js\"></script>\n <script async src=\"./js/gmaps.js\"></script>  \n"
+                },
+                {
+                    "date": 1673881006408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -282,9 +282,9 @@\n <!-- Footer - bloc-8 END -->\n \n </div>\n <!-- Principal conteneur END -->\n-<script defer src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\" integrity=\"sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=\" crossorigin=\"anonymous\"></script>\n+<script defer src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js\" ></script>\n <script async src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n <script async src=\"./js/blocs.js\"></script>\n <script async src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js\"></script>\n <script async src=\"./js/gmaps.js\"></script>  \n"
                 }
             ],
             "date": 1670511512112,
