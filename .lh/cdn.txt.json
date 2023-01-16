@@ -1,0 +1,18 @@
+{
+    "sourceFile": "cdn.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1673881496794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1673881496794,
+            "name": "Commit-0",
+            "content": "<script defer src=\"http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js\"></script>\n<script async src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n<script async src=\"./js/blocs.js\"></script>\n<script async src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js\"></script>\n<script async src=\"./js/gmaps.js\"></script>  \n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XQ52W2E63D\"></script>\n<script>\n\t  window.dataLayer = window.dataLayer || [];\n\t  function gtag(){dataLayer.push(arguments);}\n\t  gtag('js', new Date());\n\tgtag('config', 'G-XQ52W2E63D');\n</script>\n<!-- fin de la balise Google -->   "
+        }
+    ]
+}
